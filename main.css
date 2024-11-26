@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background: linear-gradient(to top left, #d71fef 20%, #8700f5 100%);
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px 1px #00000025;
+}
+
+.container form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%
+}
+
+.container form input,
+.container form button{
+    padding: 0.5rem;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+}
+
+.container form input{
+    border-bottom: 2px solid;
+}
+
+.container form button{
+    background-color: #2dff49;
+    border: none;
+    font-weight: bold;
+    box-shadow: -1px -1px 5px 1px #0000003a;
+    cursor: pointer;
+}
+
+.container form button:hover{
+    background-color: #57ff6d;
+    box-shadow: -1px -1px 5px 0.5px #0000003a;
+}
+
+/* Tabela */
+
+th, td{
+    padding: 0.5rem;
+    border-bottom: 1px solid;
+}
+
+td{
+    text-align: center;
+    border-bottom: 1px solid #00000034;
+}
